@@ -17,7 +17,7 @@
 
 インストール後、動作確認：
 ```bash
-python --version
+python --version```
 
 ### ③ Ollamaをインストール
 
@@ -25,7 +25,7 @@ python --version
 - 起動確認：
 
 ```bash
-ollama serve
+ollama serve```
 
 
 ### ④ モデルをダウンロード
@@ -34,7 +34,7 @@ ollama serve
 
 ```bash
 ollama pull llama3:4b
-ollama pull llama3:12b
+ollama pull llama3:12b```
 
 
 ### ⑤ ライブラリをインストール
@@ -44,13 +44,13 @@ ollama pull llama3:12b
 3. 次を実行：
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.txt```
 
 
 ### ⑥ アプリを起動
 
 ```bash
-streamlit run streamlit_gemma_0916_json.py
+streamlit run streamlit_gemma_0916_json.py```
 
 🌐 **ブラウザで自動的に開きます：**  
 [http://localhost:8501](http://localhost:8501)
