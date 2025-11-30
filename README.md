@@ -20,7 +20,24 @@
 python --version
 ```
 
-### ③ Ollamaをインストール
+### ③ 仮想環境(venv)を作成
+展開したフォルダ内で、アドレスバーをクリック → cmd → Enter
+開いたターミナルで：
+```bash
+python -m venv .venv
+```
+
+仮想環境を有効化：
+```bash
+.venv\Scripts\activate
+```
+
+成功すると、こう表示されます：
+```bash
+(.venv) C:\Users\..
+```
+
+### ④ Ollamaをインストール
 
 - [Ollama公式サイト](https://ollama.com/download) からインストール  
 - 起動確認：
@@ -30,7 +47,7 @@ ollama serve
 ```
 
 
-### ④ モデルをダウンロード
+### ⑤ モデルをダウンロード
 
 初回のみ実行：
 
@@ -40,7 +57,7 @@ ollama pull llama3:12b
 ```
 
 
-### ⑤ ライブラリをインストール
+### ⑥ ライブラリをインストール
 
 1. 展開したフォルダを開く  
 2. アドレスバーに `cmd` と入力して **Enter**  
@@ -51,13 +68,13 @@ pip install -r requirements.txt
 ```
 
 
-### ⑥ アプリを起動
+### ⑦ アプリを起動
 
 ```bash
 streamlit run streamlit_gemma_0916_json.py
 ```
 
-🌐 **ブラウザで自動的に開きます：**  
+🌐 **ブラウザで自動的に開きます：** ⑦
 [http://localhost:8501](http://localhost:8501)
 
 
