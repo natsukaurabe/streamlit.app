@@ -59,7 +59,7 @@ ollama pull llama3:4b
 
 ### ⑥ ライブラリをインストール
 
-1. 展開したフォルダを開く  
+1. 展開したフォルダを開く(C:\Users\浦邉奈津香\Downloads\streamlit.app-main (1)\streamlit.app-main)  
 2. アドレスバーに `cmd` と入力して **Enter**  
 3. 次を実行：
 
