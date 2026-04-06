@@ -24,7 +24,7 @@ python --version
 展開したフォルダ内で、アドレスバーをクリック → cmd → Enter
 開いたターミナルで：
 ```bash
-python -m venv .venv
+py -3.11 -m venv .venv
 ```
 
 仮想環境を有効化：
