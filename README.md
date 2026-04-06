@@ -53,7 +53,7 @@ ollama serve
 
 ```bash
 ollama pull llama3:4b
-ollama pull llama3:12b
+(ollama pull llama3:12b)
 ```
 
 
