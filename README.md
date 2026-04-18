@@ -77,7 +77,7 @@ streamlit run streamlit_gemma_0916_json.py
 🌐 **ブラウザで自動的に開きます：** ⑦
 [http://localhost:8501](http://localhost:8501)
 
-### セットアップした後の使い方
+## セットアップした後の使い方
 
 ```bash
 .venv\Scripts\activate
