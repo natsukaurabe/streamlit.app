@@ -59,7 +59,7 @@ ollama pull llama3:4b
 
 ### ⑥ ライブラリをインストール
 
-1. フォルダに移動　cd C:\Users\浦邉奈津香\Downloads\streamlit.app-main (1)\streamlit.app-main
+1. フォルダに移動　cd C:\Users\浦邉奈津香\Downloads\streamlit.app-main (1)\streamlit.app-main←streamlit_gemma_0916_json.pyが入ってるファイルのアドレスをコピペ
 2. 次を実行
 
 
@@ -76,6 +76,14 @@ streamlit run streamlit_gemma_0916_json.py
 
 🌐 **ブラウザで自動的に開きます：** ⑦
 [http://localhost:8501](http://localhost:8501)
+
+### セットアップした後の使い方
+
+```bash
+.venv\Scripts\activate
+cd (streamlit_gemma_0916_json.pyが入ってるファイルのアドレスをコピペ)
+streamlit run streamlit_gemma_0916_json.py
+```
 
 
 
